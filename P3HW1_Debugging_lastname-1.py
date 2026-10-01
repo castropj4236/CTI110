@@ -26,18 +26,25 @@ length_ = len(grades)
 average_ = sum(grades) / len(grades)
 
 # determine letter grade for average
+print("--------------Results--------------")
+print(f"{'Lowest_Grade:':<18}{lowest_}")
+print(f"{'Highest_Grade:':<18}{highest_}")
+print(f"{'Sum_of_Grade:':<18}{sum_}")
+print(f"{'Average':<18}{average_:.2f}")
+print("-------------------------------------")
 
+if average_ >= 90:
+    letter_grade = "A"
+elif average_ >= 80:
+    letter_grade = "B"
+elif average_ >= 70:
+    letter_grade = "C"
+elif average_ >= 60:
+    letter_grade = "D"
+else:
+    letter_grade = "F"
 
-if avg >= 90:
- 
-    print('Your grade is: A')
-else:
-if average > 80:
- print('Your grade is: B')
-else:
-
-else:
-print('Your grade is: F') # TO DO: finish this
+print(f"{'Your grade is: ':<18}{letter_grade}")
 
 
 
