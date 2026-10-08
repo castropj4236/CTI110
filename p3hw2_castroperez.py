@@ -14,9 +14,15 @@ if hours > 40:
     regular_pay = 40 * rate
     gross_pay = regular_pay + overtime_pay
 else:
+    regular_pay = hours * rate
     overtime_pay = 0
     overtime_hours = 0
     gross_pay = hours * rate
 
 print(f"\nEmployee Name: {name}")
-
+print(f"\nHours Worked: {hours}")
+print(f"\nPayrate: {rate}")
+print(f"\nOverTime: {overtime_hours}")
+print(f"\nOverTime Pay: {overtime_pay}")
+print(f"\nRegularHour Pay: {regular_pay}")
+print(f"\nGross Pay: {gross_pay}")
