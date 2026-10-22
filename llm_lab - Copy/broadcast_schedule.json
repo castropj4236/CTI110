@@ -1,0 +1,17 @@
+[
+    {
+        "program_name": "Morning News",
+        "start_time": "04:30",
+        "duration": 30
+    },
+    {
+        "program_name": "Weather Update",
+        "start_time": "05:00",
+        "duration": 30
+    },
+    {
+        "program_name": "Morning News",
+        "start_time": "05:30",
+        "duration": 90
+    }
+]
