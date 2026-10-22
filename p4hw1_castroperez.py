@@ -1,7 +1,7 @@
 # Castro-Perez
 # 10/20/2026
-# Assignment Name
-# A brief description of the project
+# P4HW1
+# Average Results for invaliation
 
 def main():
     num_scores = int(input("How many scores do you want to enter? "))
