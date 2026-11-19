@@ -1,0 +1,61 @@
+@castropj4236 ➜ /workspaces/CTI110 (main) $ /home/codespace/.python/current/bin/python3 /workspaces/CTI110/p8/create_signup_db.py
+✅ signup_hw.db created with users table and sample data.
+
+(1, 'Oprah', 'Winfrey', 'oprah.winfrey@example.com', 'oprah', 'SuperSoul1', '2026-06-01', 'UNITED STATES', 72)
+(2, 'Anderson', 'Cooper', 'anderson.cooper@example.com', 'anderson_cooper', 'AC360Live', '2026-06-02', 'UNITED STATES', 59)
+(3, 'Stephen', 'Colbert', 'stephen.colbert@example.com', 'stephen_colbert', 'LateShow4', '2026-06-03', 'UNITED STATES', 62)
+(4, 'Trevor', 'Noah', 'trevor.noah@example.com', 'trevor_noah', 'DailyShow5', '2026-06-04', 'SOUTH AFRICA', 42)
+(5, 'Gayle', 'King', 'gayle.king@example.com', 'gayle_king', 'CBSMornings7', '2026-06-05', 'UNITED STATES', 71)
+(6, 'Jimmy', 'Fallon', 'jimmy.fallon@example.com', 'jimmy_fallon', 'TonightShow8', '2026-06-06', 'UNITED STATES', 52)
+(7, 'Robin', 'Roberts', 'robin.roberts@example.com', 'robin_roberts', 'GoodMorning9', '2026-06-07', 'UNITED STATES', 65)
+(8, 'Conan', 'OBrien', 'conan.obrien@example.com', 'conan_obrien', 'LateNight10', '2026-06-08', 'UNITED STATES', 63)
+(9, 'David', 'Letterman', 'david.letterman@example.com', 'david_letterman', 'TopTen11', '2026-06-09', 'UNITED STATES', 79)
+(10, 'Ellen', 'DeGeneres', 'ellen.degeneres@example.com', 'ellen_degeneres', 'Kindness12', '2026-06-10', 'UNITED STATES', 68)
+@castropj4236 ➜ /workspaces/CTI110 (main) $ /home/codespace/.python/current/bin/python3 /workspaces/CTI110/p8/run_queries.py
+
+============================================================
+1) All users
+============================================================
+(1, 'Oprah', 'Winfrey', 'oprah.winfrey@example.com', 'oprah', 'SuperSoul1', '2026-06-01', 'UNITED STATES', 72)
+(2, 'Anderson', 'Cooper', 'anderson.cooper@example.com', 'anderson_cooper', 'AC360Live', '2026-06-02', 'UNITED STATES', 59)
+(3, 'Stephen', 'Colbert', 'stephen.colbert@example.com', 'stephen_colbert', 'LateShow4', '2026-06-03', 'UNITED STATES', 62)
+(4, 'Trevor', 'Noah', 'trevor.noah@example.com', 'trevor_noah', 'DailyShow5', '2026-06-04', 'SOUTH AFRICA', 42)
+(5, 'Gayle', 'King', 'gayle.king@example.com', 'gayle_king', 'CBSMornings7', '2026-06-05', 'UNITED STATES', 71)
+(6, 'Jimmy', 'Fallon', 'jimmy.fallon@example.com', 'jimmy_fallon', 'TonightShow8', '2026-06-06', 'UNITED STATES', 52)
+(7, 'Robin', 'Roberts', 'robin.roberts@example.com', 'robin_roberts', 'GoodMorning9', '2026-06-07', 'UNITED STATES', 65)
+(8, 'Conan', 'OBrien', 'conan.obrien@example.com', 'conan_obrien', 'LateNight10', '2026-06-08', 'UNITED STATES', 63)
+(9, 'David', 'Letterman', 'david.letterman@example.com', 'david_letterman', 'TopTen11', '2026-06-09', 'UNITED STATES', 79)
+(10, 'Ellen', 'DeGeneres', 'ellen.degeneres@example.com', 'ellen_degeneres', 'Kindness12', '2026-06-10', 'UNITED STATES', 68)
+
+============================================================
+2) Name + Email
+============================================================
+('Oprah', 'Winfrey', 'oprah.winfrey@example.com')
+('Anderson', 'Cooper', 'anderson.cooper@example.com')
+('Stephen', 'Colbert', 'stephen.colbert@example.com')
+('Trevor', 'Noah', 'trevor.noah@example.com')
+('Gayle', 'King', 'gayle.king@example.com')
+('Jimmy', 'Fallon', 'jimmy.fallon@example.com')
+('Robin', 'Roberts', 'robin.roberts@example.com')
+('Conan', 'OBrien', 'conan.obrien@example.com')
+('David', 'Letterman', 'david.letterman@example.com')
+('Ellen', 'DeGeneres', 'ellen.degeneres@example.com')
+
+============================================================
+3) Users from USA
+============================================================
+(no rows)
+
+============================================================
+4) Total user count
+============================================================
+(10,)
+
+============================================================
+5) 3 most recent signups
+============================================================
+('ellen_degeneres', '2026-06-10')
+('david_letterman', '2026-06-09')
+('conan_obrien', '2026-06-08')
+
+✅ Finished running 5 queries.
